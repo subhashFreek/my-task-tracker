@@ -11,10 +11,10 @@
   - [Run Database Migrations](#4-run-database-migrations)
   - [Start the Application](#5-start-the-application)
 - [Usage](#usage)
-  - [Create a Task](#create-a-task)
-  - [Update a Task](#update-a-task)
-  - [Get All Tasks](#get-all-tasks)
-  - [Get Task Metrics](#get-task-metrics)
+  - [Create a Task](#1-create-a-task)
+  - [Update a Task](#2-update-a-task)
+  - [Get All Tasks](#3-get-all-tasks)
+  - [Get Task Metrics](#4-get-task-metrics)
 - [Testing](#testing)
 
 ## Overview
