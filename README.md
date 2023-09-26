@@ -70,7 +70,7 @@ npm start
 
 Application will be running at http://localhost:3000.
 Usage
-Create a Task
+### a. Create a Task
 
 To create a new task, send a POST request to http://localhost:3000/tasks with the following JSON data:
 
@@ -82,10 +82,11 @@ To create a new task, send a POST request to http://localhost:3000/tasks with th
 }
 ```
 
-Update a Task
+### b. Update a Task
 
 To update an existing task, send a PUT request to http://localhost:3000/tasks/{taskId} with the updated JSON data.
-Get All Tasks
+
+### c. Get All Tasks
 
 To retrieve all tasks, send a GET request to http://localhost:3000/tasks.
 
@@ -94,7 +95,7 @@ You can also use query parameters for pagination:
     page: Page number (e.g., page=1)
     pageSize: Number of tasks per page (e.g., pageSize=10)
 
-Get Task Metrics
+### d. Get Task Metrics
 
 To get task metrics, send a GET request to http://localhost:3000/tasks/metrics.
 Testing
