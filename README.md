@@ -16,8 +16,6 @@
   - [Get All Tasks](#get-all-tasks)
   - [Get Task Metrics](#get-task-metrics)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -69,8 +67,9 @@ npm start
 ```
 
 Application will be running at http://localhost:3000.
-Usage
-### a. Create a Task
+
+### Usage
+### 1. Create a Task
 
 To create a new task, send a POST request to http://localhost:3000/tasks with the following JSON data:
 
@@ -82,11 +81,11 @@ To create a new task, send a POST request to http://localhost:3000/tasks with th
 }
 ```
 
-### b. Update a Task
+### 2. Update a Task
 
 To update an existing task, send a PUT request to http://localhost:3000/tasks/{taskId} with the updated JSON data.
 
-### c. Get All Tasks
+### 3. Get All Tasks
 
 To retrieve all tasks, send a GET request to http://localhost:3000/tasks.
 
@@ -95,10 +94,11 @@ You can also use query parameters for pagination:
     page: Page number (e.g., page=1)
     pageSize: Number of tasks per page (e.g., pageSize=10)
 
-### d. Get Task Metrics
+### 4. Get Task Metrics
 
 To get task metrics, send a GET request to http://localhost:3000/tasks/metrics.
-Testing
+
+### Testing
 
 To run unit tests for the application, use the following command:
 
